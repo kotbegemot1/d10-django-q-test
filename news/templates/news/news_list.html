@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    {% for n in object_list %}
+        {{ n.name }} ({{ n.region.name }}) <br>
+    {% endfor %}
+</body>
+</html>
