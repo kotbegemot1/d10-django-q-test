@@ -537,3 +537,6 @@ Traceback (most recent call last):
   File "/home/kotbegemot/Документы/d10/venv/lib/python3.6/site-packages/django/forms/models.py", line 286, in __init__
     raise ValueError('ModelForm has no model class specified.')
 ValueError: ModelForm has no model class specified.
+[22Apr 10:02:05] WARNING [django.request:228] Not Found: /favicon.ico
+[22Apr 10:18:11] WARNING [django.request:228] Not Found: /1
+[22Apr 10:27:19] INFO [news.views:16] NewsList.get_queryset called
